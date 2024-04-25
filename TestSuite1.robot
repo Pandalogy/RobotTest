@@ -50,6 +50,7 @@ FirstSeleniumTest
     Sleep    4
     Close Browser
     Log    Test Done...
+    Log    Test Done What not...
 
 SampleLoginTest
     [Documentation]    This is a sample login test
