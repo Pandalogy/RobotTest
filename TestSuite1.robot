@@ -50,6 +50,7 @@ FirstSeleniumTest
     Sleep    4
     Close Browser
     Log    Test Done...
+    Log    Test Done What not...
 
 SampleLoginTest
     [Documentation]    This is a sample login test
@@ -64,5 +65,3 @@ SampleLoginTest
     Close Browser
     Log    Test Done..
     Log    Test was executed by %{username} on %{os}
-    Log    Test Done..1
-    Log    Test Done..2
