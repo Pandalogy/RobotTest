@@ -64,4 +64,3 @@ SampleLoginTest
     Close Browser
     Log    Test Done..
     Log    Test was executed by %{username} on %{os}
-        Log    Test Done..
