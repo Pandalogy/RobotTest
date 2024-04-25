@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.9 on win32)" generated="2024-04-24T10:43:26.508468" rpa="false" schemaversion="5">
+<suite id="s1" name="TestSuite1" source="C:\Users\noah.chen\OneDrive - Razer (Asia-Pacific) Pte. Ltd\Documents\RobotTest\TestSuite1.robot">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2024-04-24T10:43:26.677372" level="INFO">Test Suite setup in progress</msg>
+<arg>Test Suite setup in progress</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:26.677372" elapsed="0.000000"/>
+</kw>
+<test id="s1-t1" name="TestCase2" line="32">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2024-04-24T10:43:26.678373" level="INFO">Test setup in progress</msg>
+<arg>Test setup in progress</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:26.678373" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-24T10:43:26.679372" level="INFO">2nd testcase</msg>
+<arg>2nd testcase</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:26.678373" elapsed="0.000999"/>
+</kw>
+<kw name="Set Tags" owner="BuiltIn">
+<msg time="2024-04-24T10:43:26.679372" level="INFO">Set tag 'regression'.</msg>
+<arg>regression</arg>
+<doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
+<status status="PASS" start="2024-04-24T10:43:26.679372" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-24T10:43:26.680372" level="INFO">2nd testcase regression</msg>
+<arg>2nd testcase regression</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:26.680372" elapsed="0.000000"/>
+</kw>
+<kw name="Remove Tags" owner="BuiltIn">
+<msg time="2024-04-24T10:43:26.681382" level="INFO">Removed tag 'regression'.</msg>
+<arg>regression</arg>
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<status status="PASS" start="2024-04-24T10:43:26.680372" elapsed="0.001010"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-04-24T10:43:26.682372" level="INFO">Test teardown in progress</msg>
+<arg>Test teardown in progress</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:26.682372" elapsed="0.000000"/>
+</kw>
+<tag>sanity</tag>
+<status status="PASS" start="2024-04-24T10:43:26.677372" elapsed="0.005000"/>
+</test>
+<test id="s1-t2" name="TestCase3" line="38">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2024-04-24T10:43:26.683372" level="INFO">Test setup in progress</msg>
+<arg>Test setup in progress</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:26.683372" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-24T10:43:26.683372" level="INFO">3rd testcase</msg>
+<arg>3rd testcase</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:26.683372" elapsed="0.001000"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-04-24T10:43:26.684372" level="INFO">Test teardown in progress</msg>
+<arg>Test teardown in progress</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:26.684372" elapsed="0.000000"/>
+</kw>
+<tag>sanity</tag>
+<status status="PASS" start="2024-04-24T10:43:26.683372" elapsed="0.001000"/>
+</test>
+<test id="s1-t3" name="FirstSeleniumTest" line="41">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2024-04-24T10:43:26.685373" level="INFO">Test setup in progress</msg>
+<arg>Test setup in progress</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:26.685373" elapsed="0.000000"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-24T10:43:26.685373" level="INFO">Opening browser 'chrome' to base url 'https://google.com'.</msg>
+<arg>https://google.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-24T10:43:26.685373" elapsed="2.781243"/>
+</kw>
+<kw name="Set Browser Implicit Wait" owner="SeleniumLibrary">
+<arg>5</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2024-04-24T10:43:29.467615" elapsed="0.000999"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-24T10:43:29.469614" level="INFO">Typing text 'Automation Framework' into text field 'name=q'.</msg>
+<arg>name=q</arg>
+<arg>Automation Framework</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-24T10:43:29.469614" elapsed="0.113008"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-24T10:43:30.583931" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-24T10:43:29.583621" elapsed="1.000310"/>
+</kw>
+<kw name="Press Keys" owner="SeleniumLibrary">
+<msg time="2024-04-24T10:43:30.584940" level="INFO">Sending key(s) ('ENTER',) to name=q element.</msg>
+<msg time="2024-04-24T10:43:30.856695" level="INFO">Pressing special key ENTER to element.</msg>
+<msg time="2024-04-24T10:43:30.856695" level="INFO">Releasing special key ENTER.</msg>
+<arg>name=q</arg>
+<arg>ENTER</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="PASS" start="2024-04-24T10:43:30.583931" elapsed="1.533242"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-24T10:43:33.117658" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-24T10:43:32.117173" elapsed="1.000485"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-24T10:43:37.118130" level="INFO">Slept 4 seconds.</msg>
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-24T10:43:33.117658" elapsed="4.000472"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-04-24T10:43:37.118130" elapsed="2.152689"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-24T10:43:39.271772" level="INFO">Test Done...</msg>
+<arg>Test Done...</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:39.271772" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-04-24T10:43:39.272781" level="INFO">Test teardown in progress</msg>
+<arg>Test teardown in progress</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:39.272781" elapsed="0.000000"/>
+</kw>
+<tag>sanity</tag>
+<status status="PASS" start="2024-04-24T10:43:26.684372" elapsed="12.588409"/>
+</test>
+<test id="s1-t4" name="SampleLoginTest" line="54">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2024-04-24T10:43:39.274771" level="INFO">Test setup in progress</msg>
+<arg>Test setup in progress</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:39.274771" elapsed="0.000000"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-24T10:43:39.275781" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com'.</msg>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-24T10:43:39.275781" elapsed="6.467917"/>
+</kw>
+<kw name="Set Browser Implicit Wait" owner="SeleniumLibrary">
+<arg>5</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2024-04-24T10:43:45.743698" elapsed="0.000999"/>
+</kw>
+<kw name="LoginKW">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-24T10:43:45.745703" level="INFO">Typing text 'Admin' into text field 'name=username'.</msg>
+<arg>name=username</arg>
+<arg>${CREDENTIALS}[0]</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-24T10:43:45.745703" elapsed="0.462441"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-24T10:43:47.208536" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-24T10:43:46.208144" elapsed="1.000392"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-24T10:43:47.209047" level="INFO">Typing text 'admin123' into text field 'name=password'.</msg>
+<arg>name=password</arg>
+<arg>${LOGINDATA}[password]</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-24T10:43:47.208536" elapsed="0.072260"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-24T10:43:48.281567" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-24T10:43:47.281302" elapsed="1.000265"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-04-24T10:43:48.281567" level="INFO">Clicking button 'xpath://*[@id="app"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button'.</msg>
+<arg>${LoginButton}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-24T10:43:48.281567" elapsed="1.197426"/>
+</kw>
+<status status="PASS" start="2024-04-24T10:43:45.745703" elapsed="3.733290"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-24T10:43:50.479745" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-24T10:43:49.479537" elapsed="1.000208"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-24T10:43:50.480280" level="INFO">Clicking element 'xpath://*[@id="app"]/div[1]/div[1]/header/div[1]/div[2]/ul/li/span/img'.</msg>
+<arg>${ProfileDropDown}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-24T10:43:50.480280" elapsed="0.038874"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-24T10:43:51.520721" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-24T10:43:50.520153" elapsed="1.000568"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-24T10:43:51.521263" level="INFO">Clicking element 'xpath://*[@id="app"]/div[1]/div[1]/header/div[1]/div[2]/ul/li/ul/li[4]/a'.</msg>
+<arg>${LogoutButton}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-24T10:43:51.521263" elapsed="0.790884"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-24T10:43:56.313490" level="INFO">Slept 4 seconds.</msg>
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-24T10:43:52.313145" elapsed="4.000345"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-04-24T10:43:56.314448" elapsed="2.142288"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-24T10:43:58.456736" level="INFO">Test Done...</msg>
+<arg>Test Done...</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:58.456736" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-24T10:43:58.457740" level="INFO">Test was executed by noah.chen on Windows_NT</msg>
+<arg>Test was executed by %{username} on %{os}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:58.457740" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-04-24T10:43:58.457740" level="INFO">Test teardown in progress</msg>
+<arg>Test teardown in progress</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:58.457740" elapsed="0.000000"/>
+</kw>
+<doc>This is a sample login test</doc>
+<tag>sanity</tag>
+<status status="PASS" start="2024-04-24T10:43:39.273772" elapsed="19.183968"/>
+</test>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-04-24T10:43:58.458738" level="INFO">Test Suite teardown in progress</msg>
+<arg>Test Suite teardown in progress</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-24T10:43:58.458738" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-04-24T10:43:26.510465" elapsed="31.948273"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="4" fail="0" skip="0">sanity</stat>
+</tag>
+<suite>
+<stat pass="4" fail="0" skip="0" id="s1" name="TestSuite1">TestSuite1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
